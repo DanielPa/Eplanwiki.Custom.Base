@@ -394,7 +394,7 @@ namespace Eplanwiki.Custom.Base
                     
                 case Language.L_yy_XX: return "yy_XX unknown language (used when importing from EPLAN 5)"; 
                 
-                case Language.L_tlh_TLH: return "tlhIngan Hol (Klingonisch)";
+                case Language.L_tlh_TLH: return "tlh_TLH Klingonisch (tlhIngan Hol)";
                     
                 default: return "??_??";
                     
