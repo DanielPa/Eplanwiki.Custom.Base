@@ -130,7 +130,8 @@ namespace Eplanwiki.Custom.Base
             L_bs_BA,  //Bosnisch (Lateinisch, Bosnien und Herzegowina)  
             L_hr_BA,  //Kroatisch (Bosnien und Herzegowina)  
             L_sr_BA,  //Serbisch (Lateinisch, Bosnien und Herzegowina)  
-            L_fa_IR,  //Farsi  
+            L_fa_IR,  //Farsi 
+            L_tlh_TLH,  //tlhIngan Hol (Klingonisch)
             L_yy_XX,   //unknown language (used when importing from EPLAN 5) 
             
         }
@@ -392,6 +393,8 @@ namespace Eplanwiki.Custom.Base
                 case Language.L_fa_IR: return "fa_IR Farsi";  
                     
                 case Language.L_yy_XX: return "yy_XX unknown language (used when importing from EPLAN 5)"; 
+                
+                case Language.L_tlh_TLH: return "tlhIngan Hol (Klingonisch)";
                     
                 default: return "??_??";
                     
